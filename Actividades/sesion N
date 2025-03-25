@@ -9,7 +9,17 @@ public class Bolsa <T> implements Iterator < T > {
         this.tope=tope;
     }
 
+    public void add (T objeto){
+        if (lista.size() >= tope){
+            lista.add(object);
+        }else {
+            throw new RuntimeException("no cabe mas")
+        }
     
+    }
+
+    
+
 }
 
 
