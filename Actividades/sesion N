@@ -18,7 +18,9 @@ public class Bolsa <T> implements Iterator < T > {
     
     }
 
-    
+    public Iterator < T > iterator(){
+        return lista.iterator();
+    }
 
 }
 
