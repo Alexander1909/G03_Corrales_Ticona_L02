@@ -34,7 +34,11 @@ public class Cajoneria <T> implements Iterable<T> {
 
     @Override
     public String toString(){
-        
+        StringBuilder resultado = new StringBuilder("Contenido de la cajonería:\n");
+        for (int i = 0; i < lista.size(); i++) {
+            resultado.append((i + 1)).append(". ").append(lista.get(i).toString()).append("\n");
+        }
+        return resultado.toString(); 
 
     }
 }
