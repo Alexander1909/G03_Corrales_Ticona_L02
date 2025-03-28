@@ -5,7 +5,10 @@ public class principal {
         Chocolatina c = new Chocolatina("milka");
         Chocolatina c1 = new Chocolatina("milka");
         Chocolatina c2 = new Chocolatina("ferrero");
-        
+
+        for(Chocolatina chocolatina: bolsaCho){
+            System.err.println(chocolatina.getMarca());
+        }
 
     }
 }
