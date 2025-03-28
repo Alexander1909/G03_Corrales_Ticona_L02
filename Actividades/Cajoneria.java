@@ -14,4 +14,8 @@ public class Cajoneria <T> implements Iterable<T> {
         throw ner RuntimeException("no cabe mas");
     }
 
+    public Iterator < T > iterator(){
+        return list.iterator();
+    }
+
 }
