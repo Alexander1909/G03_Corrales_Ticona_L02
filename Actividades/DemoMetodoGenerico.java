@@ -19,6 +19,11 @@ public static void main(String[] args) {
     Integer nums3[]={1,2,7,4,5};
     Integer nums4[]={1,2,7,4,5,6};
     if(igualArrays(nums, nums)){
-        System.err.println("nums es igual a nums");
+        System.out.println("nums es igual a nums");
     }
+    if(igualArrays(nums, nums2)){
+        System.out.println("nums es igual a nums2");
+    }
+    if
+
 }
