@@ -16,7 +16,8 @@ public class Cajoneria <T> implements Iterable<T> {
     }
 
     public Iterator < T > iterator(){
-        return list.iterator();
+        return lista.iterator();
     }
+
 
 }

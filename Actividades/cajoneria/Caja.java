@@ -1,9 +1,5 @@
 package cajoneria;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-
-
 public class Caja {
     private String color;
 
@@ -18,4 +14,9 @@ public class Caja {
     public void setColor(String color) {
         this.color = color;
     }
+    @Override
+    public String toString() {
+        return "Caja de color " + color;
+    }
+
 }
