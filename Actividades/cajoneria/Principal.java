@@ -12,5 +12,10 @@ public class Principal {
         for (Caja caja : cajonCajas) {
             System.out.println("Caja de color: " + caja.getColor());
     }
+    System.out.println("Buscando la caja verde: " + cajon.search(c2));
+    System.out.println("Eliminando la caja verde: " + cajon.delete(c2));
 
+    System.out.println("Cajoneria después de eliminar:");
+    System.out.println(cajon);
 }
+    }

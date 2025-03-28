@@ -18,7 +18,7 @@ public class Cajoneria <T> implements Iterable<T> {
     public Iterator < T > iterator(){
         return lista.iterator();
     }
-
+    // Metodo Buscar
     public String search(T objeto){
         int index= lista.indexOF(objeto);
         if (index != -1) {
@@ -27,11 +27,11 @@ public class Cajoneria <T> implements Iterable<T> {
         return "Objeto no encontrado";
     
     }
-
+    // Metodo Borrar
     public T delete(T objeto){
         return lista.remove(objeto) ? objeto : null;
     }
-
+    // Metodo toString
     @Override
     public String toString(){
         StringBuilder resultado = new StringBuilder("Contenido de la cajonería:\n");
