@@ -18,7 +18,7 @@ public class principal {
         Golosina g3= new Golosina("Paleta", 15.0);
 
         for(Golosina golosina : bolsaGolo){
-            System.out.println("");
+            System.out.println(golosina.getNombre() + "-" + golosina.getPeso());
         }
         
 
