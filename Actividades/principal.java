@@ -13,8 +13,11 @@ public class principal {
 
         //Bolsa de Golosina
         bolsa <Golosina> bolsaGolo =new bolsa<Golosina>(){
-            
+        Golosina g1= new Golosina("Caramelo", 10.5);
+        Golosina g2= new Golosina("Gomita", 5.0);
+        Golosina g3= new Golosina("Paleta", 15.0);
+
         }
-        >
+        
     }
 }
