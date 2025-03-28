@@ -10,10 +10,12 @@ public class bolsa< T > implements Iterable<T> {
         this.tope=tope;
     }
 
-    public void add(T objeto){
-        if (lista.size() >= tope);
-    }else {
-        throw ner RuntimeException("no cabe mas");
+    public void add(T objeto) {
+        if (lista.size() >= tope) {  
+            lista.add(objeto);
+        } else {
+            throw new RuntimeException("no caben más");
+        }
     }
     public Iterator < T > iterator(){
         return list.iterator();
