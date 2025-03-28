@@ -17,7 +17,7 @@ public class TestGen {
         Chocolatina[] chocolatinas={new Chocolatina("Milka"), new Chocolatina("Ferrero")};
 
         System.out.println(Util.exist(golosinas, new Golosina("Caramelo", 10.5)));//true
-        System.out.println(Util.exist(chocolatinas, new Chocolatina("Oreo")));
+        System.out.println(Util.exist(chocolatinas, new Chocolatina("Oreo")));// false
 
 
     }
