@@ -21,7 +21,20 @@ public class Cajoneria <T> implements Iterable<T> {
 
     public String search(T objeto){
         int index= lista.indexOF(objeto);
-        if
+        if (index != -1) {
+            return "Objeto encontrado en posición " + (index + 1);
+        }
+        return "Objeto no encontrado";
+    
     }
 
+    public T delete(T objeto){
+        return lista.remove(objeto) ? objeto : null;
+    }
+
+    @Override
+    public String toString(){
+        
+
+    }
 }
