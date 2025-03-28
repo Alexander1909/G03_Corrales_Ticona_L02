@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "principal",
+            "request": "launch",
+            "mainClass": "principal",
+            "projectName": "G03_Corrales_Ticona_L02_ae1ba6cb"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

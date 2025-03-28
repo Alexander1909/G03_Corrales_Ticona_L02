@@ -1,6 +1,7 @@
 
 public class principal {
     public static void main(String[] args) {
+        //Bolsa Chocolatina
         bolsa <Chocolatina> bolsaCho = new bolsa <Chocolatina>();
         Chocolatina c = new Chocolatina("milka");
         Chocolatina c1 = new Chocolatina("milka");
@@ -10,5 +11,10 @@ public class principal {
             System.err.println(chocolatina.getMarca());
         }
 
+        //Bolsa de Golosina
+        bolsa <Golosina> bolsaGolo =new bolsa<Golosina>(){
+            
+        }
+        >
     }
 }
