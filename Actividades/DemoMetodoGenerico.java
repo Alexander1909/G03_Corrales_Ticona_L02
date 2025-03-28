@@ -31,4 +31,8 @@ public static void main(String[] args) {
         System.out.println("nuns es igual a nums4");
     }
 
+    Double dvals[]={1.1,2.2,3.3,4.4,5.5};
+    if(igualArrays(nums, dvals)){
+        System.out.println("nums es igual a dvlas");
+    }
 }
