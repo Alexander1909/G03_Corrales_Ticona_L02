@@ -9,6 +9,10 @@ public class TestGen {
         return false;
     }
 
+    public static void main(String[] args) {
+        Golosina[] golosinas={new Golosina("Caramelo", 10.5)};
+        Chocolatina[] 
+    }
 }
 
 
