@@ -19,5 +19,9 @@ public class Cajoneria <T> implements Iterable<T> {
         return lista.iterator();
     }
 
+    public String search(T objeto){
+        int index= lista.indexOF(objeto);
+        if
+    }
 
 }
