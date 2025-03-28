@@ -3,6 +3,14 @@ public class Golosina {
     private double peso;
 
     public Golosina(String nombre, double peso){
-        
+        this.nombre=nombre;
+        this.peso=peso;
+
     }
+
+    public String getNombre(){
+        return this.nombre;
+    }
+
+    public
 }
