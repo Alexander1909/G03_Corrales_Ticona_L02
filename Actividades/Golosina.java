@@ -12,5 +12,15 @@ public class Golosina {
         return this.nombre;
     }
 
-    public
+    public void serNombre (String nombre){
+        this.nombre=nombre;
+    }
+
+    public double getPeso(){
+        return this.peso;
+    }
+
+    public void setPeso(double peso){
+        this.peso=peso;
+    }
 }
