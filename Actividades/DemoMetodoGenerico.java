@@ -24,6 +24,11 @@ public static void main(String[] args) {
     if(igualArrays(nums, nums2)){
         System.out.println("nums es igual a nums2");
     }
-    if
+    if(igualArrays(nums, nums3)){
+        System.out.println("nums es igual a nums3");
+    }
+    if(igualArrays(nums, nums4)){
+        System.out.println("nuns es igual a nums4");
+    }
 
 }
