@@ -1,3 +1,4 @@
+package Bolsa;
 public class Golosina {
     private String nombre;
     private double peso;
