@@ -1,11 +1,7 @@
 package cajoneria;
-
-public class Caja {
+class Caja<T> {
     private String color;
-
-    public Caja(String color) {
-        this.color = color;
-    }
+    private T contenido;
 
     public String getColor() {
         return color;
